@@ -17,9 +17,21 @@ namespace LinqYT
         // LINQ gör det enklare och mer läsbart att arbeta med data
         // genom att använda metoder som...
         // .Where(), .Select(), och .OrderBy().
+        //
+        // LINQ i C# använder lambda uttryck.
+        // En lambda i C# är ett kortare sätt att skriva anonyma
+        // metoder (metoder utan namn).
+        // De används ofta för att snabbt skapa funktioner som skickas
+        // till metoder som tar emot andra metoder som argument.
+
 
         static void Main(string[] args)
         {
+            // Om vi skulle skriva första exemplet i SQL syntax...
+            // SELECT n
+            // FROM Numbers
+            // WHERE n % 2 = 0;
+
             // Where ===================================================
             int[] numbers = { 1, 2, 3, 4, 5 };
 
