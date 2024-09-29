@@ -23,6 +23,7 @@ namespace LinqYT
         // metoder (metoder utan namn).
         // De används ofta för att snabbt skapa funktioner som skickas
         // till metoder som tar emot andra metoder som argument.
+        // https://www.youtube.com/watch?v=Jn98psG3NH0&ab_channel=SrWoti
 
 
         static void Main(string[] args)
